@@ -32,3 +32,4 @@ curl http://localhost:3000
 
 Test the job en Jenkins
 Test the job en Jenkins 2
+Test the job en Jenkins 3
