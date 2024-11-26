@@ -19,7 +19,7 @@ pipeline {
         stage('Start') {
             steps {
                 echo "Ejecutar npm start" 
-                sh 'npm start &'
+                sh 'npm start > /dev/null 2>&1 &'
                 sh 'sleep 10'
             }
         }
