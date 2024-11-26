@@ -28,8 +28,3 @@ npm start
 ```bash
 curl http://localhost:3000
 ```
-# test job
-
-Test the job en Jenkins
-Test the job en Jenkins 2
-Test the job en Jenkins 3
