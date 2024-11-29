@@ -1,4 +1,4 @@
-# NodeJs, helloworld API for test propouses.
+# NodeJs, helloworld API para realizar pruebas.
 
 Es una simple API de prueba que retorna un mensaje de bienvenida.
 
