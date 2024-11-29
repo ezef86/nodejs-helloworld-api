@@ -1,31 +1,31 @@
 # NodeJs, helloworld API for test propouses.
 
-This is a simple API that returns a welcome message.
+Es una simple API de prueba que retorna un mensaje de bienvenida.
 
-## Run your local environment
+## Ejecutar en entorno local:
 
-### Clone the repository
+### Clonar el repositorio:
 ```bash
 git clone https://github.com/edgaregonzalez/nodejs-helloworld-api.git
 cd nodejs-helloworld-api
 ```
 
-### Install dependencies
+### Instalar dependencias:
 ```bash
 npm install
 ```
 
-### Run the tests
+### Ejecutar las pruebas:
 ```bash
 npm test
 ```
 
-### Start the server
+### Correr el servidor
 ```bash
 npm start
 ```
 
-### Make a request
+### Realizar un requerimiento
 ```bash
 curl http://localhost:3000
 ```
