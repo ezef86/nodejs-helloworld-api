@@ -7,6 +7,7 @@ This is a simple API that returns a welcome message.
 ### Clone the repository
 ```bash
 git clone https://github.com/edgaregonzalez/nodejs-helloworld-api.git
+cd nodejs-helloworld-api
 ```
 
 ### Install dependencies
