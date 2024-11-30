@@ -1,6 +1,6 @@
 # NodeJs, helloworld API para realizar pruebas.
 
-Es una simple API de prueba que retorna un mensaje de bienvenida.
+* Es una simple API de prueba que retorna un mensaje de bienvenida.
 
 ## Ejecutar en entorno local:
 
