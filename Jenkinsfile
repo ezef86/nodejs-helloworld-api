@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    triggers { 
-        githubPullRequest() 
-    }
     tools {
         nodejs 'nodejs21'
     }
