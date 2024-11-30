@@ -20,12 +20,12 @@ npm install
 npm test
 ```
 
-### Correr el servidor
+### Correr el servidor:
 ```bash
 npm start
 ```
 
-### Realizar un requerimiento
+### Realizar un requerimientopara que devuelva el mensaje:
 ```bash
 curl http://localhost:3000
 ```
