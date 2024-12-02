@@ -1,6 +1,6 @@
-# NodeJs, helloworld API para realizar pruebas.
+# CI/CD en Jenkins con nodeJS y un webhook de GitHub para realizar pruebas de building automatizado
 
-* Es una simple API de prueba que retorna un mensaje de bienvenida.
+* El objetivo es automatizar los Pull Requests o git push de los desarrolladores para que el repositorio tenga configurado un webhook para ejecutar un buid en Jenkins y testar un proyecto de nodeJS.
 
 ## Ejecutar en entorno local:
 
