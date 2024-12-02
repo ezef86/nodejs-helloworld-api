@@ -12,7 +12,8 @@
 
 ### Configuraciones adicionales:
 
-Al ejecutar una aplicación de nodeJS se debe instalar el plugin "NodeJS" para luego ir a System Configuration >> Tools >> NodeJS Installations >> Add NodeJS:
+Al ejecutar una aplicación de nodeJS se debe instalar el plugin "NodeJS":
+* Una vez instalado dirigirse a System Configuration >> Tools >> NodeJS Installations >> Add NodeJS
 * El nombre de la nueva instalación debe coincidir con el nombre ingresado en el Jenkinsfile en el bloque tools {}
 * En este caso sería "nodejs21"
 * Elegir la versión de nodeJS que se requiera para el entorno, en este caso se elige "NodeJS 21.7.3"
