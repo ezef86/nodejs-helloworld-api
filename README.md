@@ -7,14 +7,14 @@
 - Instalar Jenkins como controlador en el entorno que más se adapte a las necesidades del proyecto. Ver documentación de referencia.
 - Corroborar que esté instalado o instalar el plugin "GitHub Branch Source".
 
-![Image-plugin-multibranch](images\GitHub-Branch-Source-plugin.png)
+![Image-plugin-multibranch](images/GitHub-Branch-Source-plugin.png)
 
 - Crear un nuevo item, darle un nombre y elegir "Multibranch Pipeline".
 - En la configuración del nuevo job, en "Branch Sources" agregar la URL del repositorio de GitHub con el que Jenkins se comunicará. Si tiene credenciales, agregarlas también.
 - En la sección "Build Configuration" asegurarse que la ruta del Jenkinsfile coincida con la ubicación en el repositorio de GitHub.
 - Importante: Permisos para Pull requests. Se debe especificar el comportamiento a la hora de descubrir los Pull Requests, sobretodo en los forks. En este caso se confía en los colaboradores del repositorio para aceptar los PR.
 
-![Inage-multibranch-behavior](images\multibranch-behaviors.png)
+![Inage-multibranch-behavior](images/multibranch-behaviors.png)
 
 - Aplicar y guardar.
 
@@ -22,14 +22,14 @@
 
 Al ejecutar una aplicación de nodeJS se debe instalar el plugin "NodeJS":
 
-![Image-plugin-nodeJS](images\nodeJS-plugin.png)
+![Image-plugin-nodeJS](images/nodeJS-plugin.png)
 
 - Una vez instalado dirigirse a System Configuration >> Tools >> NodeJS Installations >> Add NodeJS
 - El nombre de la nueva instalación debe coincidir con el nombre ingresado en el Jenkinsfile en el bloque tools {}
 - En este caso sería "nodejs21"
 - Elegir la versión de nodeJS que se requiera para el entorno, en este caso se elige "NodeJS 21.7.3"
 
-![Image-nodeJS-tools](images\tools-nodeJS.png)
+![Image-nodeJS-tools](images/tools-nodeJS.png)
 
 - Aplicar y guardar.
 
@@ -43,7 +43,7 @@ Al ejecutar una aplicación de nodeJS se debe instalar el plugin "NodeJS":
 - Crear un webhook en el repositorio que se comunicará con Jenkins especificando el "Payload URL" brindado por ngrok.
 - Seleccionar los eventos individuales "Pull requests" y "Pushes":
 
-![Image-webhook-github](images\Image-webhook-github.png)
+![Image-webhook-github](images/Image-webhook-github.png)
 
 ## Comandos a ejecutar en cada build especificado en el Jenkinsfile:
 
@@ -81,7 +81,7 @@ pkill -f "node"
 
 - Con esta configuración, Jenkins ejecutará el job de manera correcta cada vez que haya un git push o un pull request.
 
-![Image-build-Jenkins](images\Image-build-jenkins.png)
+![Image-build-Jenkins](images/Image-build-jenkins.png)
 
 ### Referencias:
 
