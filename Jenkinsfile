@@ -15,6 +15,11 @@ pipeline {
                 echo "Ejecutar npm test push" 
                 sh 'npm test'
             }
+            post {
+                failure {
+                    error("La prueba falló, no se ejecutará la aplicación.")
+                }
+            }
         }
         stage('Start') {
             steps {
