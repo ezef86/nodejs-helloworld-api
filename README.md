@@ -36,7 +36,7 @@ Al ejecutar una aplicación de nodeJS se debe instalar el plugin "NodeJS":
 ## Configuración en ngrok:
 
 - Instalar ngrok en la plataforma donde está instalado el controlador de Jenkins. Ver instalación en la documentación de referencia.
-- Exponer el servicio de Jenkins a internet para que pueda ser accedido por GitHub. 
+- Exponer el servicio de Jenkins a internet para que pueda ser accedido por GitHub.
 
 ## Configuración en GitHub:
 
@@ -79,7 +79,7 @@ curl http://localhost:3000
 pkill -f "node"
 ```
 
-- Con esta configuración, Jenkins ejecutará el job de manera correcta cada vez que haya un git push o un pull request.
+- Con esta configuración, Jenkins ejecutará el job de manera correcta cada vez que haga un git push o un pull request.
 
 ![Image-build-Jenkins](images/Image-build-jenkins.png)
 
